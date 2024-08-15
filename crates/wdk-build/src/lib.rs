@@ -644,7 +644,7 @@ impl Default for KMDFConfig {
         // FIXME: determine default values from TargetVersion and _NT_TARGET_VERSION
         Self {
             kmdf_version_major: 1,
-            kmdf_version_minor: 33,
+            kmdf_version_minor: 31,
         }
     }
 }

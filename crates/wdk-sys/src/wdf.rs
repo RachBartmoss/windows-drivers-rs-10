@@ -20,4 +20,4 @@ pub use bindings::*;
 // FIXME: UMDF >= 2.25 & KMDF >= 1.25 define this in wdffuncenum with
 // _declspec(selectany) so they don't generate symbols
 #[no_mangle]
-static WdfMinimumVersionRequired: ULONG = 33;
+static WdfMinimumVersionRequired: ULONG = 31;
