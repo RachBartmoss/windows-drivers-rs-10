@@ -810,7 +810,7 @@ mod tests {
             config.driver_config,
             DriverConfig::KMDF(KMDFConfig {
                 kmdf_version_major: 1,
-                kmdf_version_minor: 33
+                kmdf_version_minor: 31
             })
         );
         assert_eq!(config.cpu_architecture, CPUArchitecture::AMD64);
