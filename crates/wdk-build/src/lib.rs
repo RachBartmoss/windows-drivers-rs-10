@@ -849,7 +849,7 @@ mod tests {
             config.driver_config,
             DriverConfig::UMDF(UMDFConfig {
                 umdf_version_major: 2,
-                umdf_version_minor: 33
+                umdf_version_minor: 31
             })
         );
         assert_eq!(config.cpu_architecture, CPUArchitecture::AMD64);
