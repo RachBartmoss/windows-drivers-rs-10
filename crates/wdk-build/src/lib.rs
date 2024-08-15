@@ -663,7 +663,7 @@ impl Default for UMDFConfig {
         // FIXME: determine default values from TargetVersion and _NT_TARGET_VERSION
         Self {
             umdf_version_major: 2,
-            umdf_version_minor: 31,
+            umdf_version_minor: 33,
         }
     }
 }
